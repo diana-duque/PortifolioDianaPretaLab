@@ -4,7 +4,7 @@
     outline: 0;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -13,9 +13,9 @@ li {
     list-style: none;
 }
 
-.header-menu nav{
+.header-menu {
     display: flex;
-    justify-content: flex-end;
+    position: fixed;
     width: 100%;
     padding: 8px;
     padding-bottom: 32px;
@@ -24,11 +24,20 @@ li {
     background-color: #724796;
 }
 
-.header-menu{
-    display:flex;
+.header-menu nav {
+    display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 100%; 
 }
+
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%; 
+    align-items: center;
+}
+
 .lista-menu li>a {
     color: #fff;
     font-size: 18px;
@@ -39,15 +48,17 @@ li {
     display: flex;
     background-color: #EAEAEA;
 }
+
 .container {
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
     margin-top: 200px;
     max-width: 960px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 10px; 
+    padding-left: 10px; 
     width: 100%;
 }
+
 .subcontainer-principal {
     display: flex;
     flex-direction: column;
@@ -55,54 +66,54 @@ li {
     align-items: center;
     text-align: center;
 }
+
 .nome-completo {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #724796;
     font-weight: 700;
     height: 45px;
 }
+
 .texto-sobre {
     font-size: 20px;
-    line-height: 32 px;
+    line-height: 32px;
 }
+
 .profissao {
     color: #c6b5d5;
     height: 60px;
 }
+
 .topico-principal{
     font-size: 36px;
-    color:#ff4dbc;
-}
-.article-lista {
-    display: flex;
-    margin-top: 100 px;
-    margin-bottom: 100px;
-    margin-bottom: 200px;
-    flex-direction: columm;
+    color: #724796;
 }
 .section-lista{
     display: flex;
-    margin-top: 100 px;
-    margin-bottom: 100px;
     margin-bottom: 200px;
-    flex-direction: columm;
+    flex-direction: column;
 }
+
 .lista-item{
     padding: 32px;
 }
+
 .lista-item ul li {
     margin-bottom: 32px;
 }
+
 .lista-titulo{
     margin-bottom: 5px;
     font-size: 22px;
     color:#661e4b;
     font-weight: 700;
 }
+
 .lista-local {
     font-size: 18px;
     color: #2F80ED;
 }
+
 .lista-descricao{
     font-size: 18px;
     margin-top: 5px;
@@ -110,21 +121,24 @@ li {
     color: #828282;
     font-weight: 300;
 }
-.wrapper-portfolio{
+
+.formacao {
     background-color: #fff;
     display: flex;
-    flex-direction: columm;
+    flex-direction: column;
 }
-.formacao{
-    background-color: #fff;
-    display: flex;
-    flex-direction: columm;
+
+
+.estilo-link {
+    color: #724796;
 }
+
 .projetos {
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
 }
+
 .container-footer {
     margin-right: auto;
     margin-left: auto;
@@ -135,19 +149,21 @@ li {
 }
 .footer{
     background-color: #724796;
-    height: 30vh;
     height: 550px;
     display: flex;
     align-items: center;
 }
+
 .estilo-icon {
     font-size: 32px;
     margin-right: 10px;
 }
-.links{
+
+.links {
     text-decoration: none;
     color: white;
 }
+
 .lista-footer li{
     color: #ffff;
     font-weight: 700;
