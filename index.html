@@ -8,11 +8,12 @@
     <title> Portfólio Diana Duque </title>
     <link rel="shortcut icon" href="Imagem.jpeg">
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header-menu">
         <nav>
-            <ul>
+            <ul class="lista-menu">
                 <li>
                     <a href="#formacao"> Formação </a>
                     
@@ -29,39 +30,43 @@
 
     <main>
 
-        <section>
-            <div>
+        <section class="principal">
+            <div class="subcontainer-principal">
                 <img src="Diana.png">
             </div>
             <div>
-                <h1 class="linha"> Diana Duque </h1>
-                <h2> Desenvolvedora Front-End llll </h2>
+                <h1 class="nome-completo"> Diana Duque </h1>
+                <h2 class="profissao"> Desenvolvedora Front-End </h2>
             </div>
-            <div>
-                <p align="justify"> Recifense Apaixonada pela história, gastronomia, arquitetura e cultura de sua cidade natal; uma mulher em constante evolução, amante do sol e do mar e, sempre que possível, gosta de estudar e compreender a personagem feminina na escrita de mulheres.Profissionalmente, atua como professora da Educação Básica e como revisora textual de materiais didáticos, mas almeja uma transição de carreira para a área de Tecnologia. 
-                </p>
+            <div class="texto-sobre">
+            Recifense Apaixonada pela história, gastronomia, arquitetura e cultura de sua cidade natal; uma mulher em constante evolução, amante do sol e do mar e, sempre que possível, gosta de estudar e compreender a personagem feminina na escrita de mulheres.Profissionalmente, atua como professora da Educação Básica e como revisora textual de materiais didáticos, mas almeja uma transição de carreira para a área de Tecnologia. 
+            
             </div>
             
         </section>
 
         <section id="formacao">
-            <div>
-                <h2> Formação </h2>
+            <div class="container article-lista">
+        <section class="formacao" id="formacao">
+            <div class="container section-lista">
+
             </div>
-            <div>
+                <h3> Formação </h3>
+            </div>
+            <div class="lista-item">
                 <ul>
                     <li>
-                        <p> <b> Ciclo Formativo Pretalab </b> </p>
+                        <p class="lista-titulo"> Ciclo Formativo Pretalab </p>
                         <a href="https://www.pretalab.com/"> Pretalab </a> </a>
                         <!-- link  do site da pretalab-->
-                        <p> espaço para texto descritivo 
+                        <p class="lista-descricao"> espaço para texto descritivo 
 
                         </p>
                     </li>
                     <li>
-                        <p> <b> Formação Academica </b> </p>
+                        <p class="lista-titulo">  Formação Academica  </p>
                         
-                        <p>
+                        <p class="lista-descricao">
                             Graduada em Letras (Português e Espanhol) e pós-graduada em Metodologia da Educação a Distância. 
 
                         </p>
@@ -70,34 +75,42 @@
             </div>
         </section>
 
-        <section id="projetos">
-            <div>
+        <section class="wrapper-portfolio" id="portfolio">
+            <article class="container article-lista">
+        <section class="projetos" id="portfolio">
+            <div class="container section-lista">
+                <div>
+                    <h3 class="topico-principal"> Meus Projetos </h3>
+                    </div>
+                    <div class="lista-item">
                 <ul>
                     <li>
-                        <p> <b> Calculadora </b> </p>
-                        <!-- link -->
-                        <p> espaço para texto descritivo
-
+                        <p class="lista-titulo"> <b> Calculadora em JavaScript </b> </p>
+                        <a href="#" target="_blank" class="lista-local"> Link para o projeto futuro </a>
+                        <p class="lista-descricao"> espaço para texto descritivo
                         </p>
                     </li>
                     <li>
-                        <p> <b> Projetos Pessoal React </b> </p>
-                        <!-- rever -->
+                        <p class="lista-titulo"> Projetos Pessoal em React </p>
+                        <p class="subtitulo-lista"> Pretalab </p>
+                        <a href="https://www.pretalab.com/report-quem-coda" target="_blank" class="lista-local"> Quem coda br </a>
                         <p>
                             Espaço para texto descritivo
                         </p>
                     </li>
                 </ul>
             </div>
+        </article>
 
         </section>
     </main>
-    <footer>
-        <div id="contatos">
-            <ul>
+    <footer class="footer" id="contatos">
+        <div class="contatos">
+        <div class="container-footer">
+            <ul class="lista-footer">
                 <li>
                     <i class="fas fa-envelope-square"></i>
-                    <a href="mailto: dianaduque1000@<gmail.com" target="_blank"> dianaduque1000@gmail.com </a>
+                    <a href="mailto: dianaduque1000@gmail.com" target="_blank"> dianaduque1000@gmail.com </a>
                 </li>
                 <li>
                     <i class="fab fa-linkedin"> </i> 
